@@ -87,21 +87,21 @@
 // let get = getrecords("anas")
 // console.log(get)
 
-// Question number 8
-function savesproperty () {
-   let obj = {
-        name:"Anas Ahmed Ansari",
-        cource: "Javascrip",
-        Mentor: "Saylani Welfare Trust",
-        Teacher: "Ishaq Bhojani"
-    };
+// // Question number 8
+// function savesproperty () {
+//    let obj = {
+//         name:"Anas Ahmed Ansari",
+//         cource: "Javascrip",
+//         Mentor: "Saylani Welfare Trust",
+//         Teacher: "Ishaq Bhojani"
+//     };
     
-    for (i in  obj) {
-        // console.log(`${i}: ${obj[i]}`)
-        localStorage.setItem(i,`${i}: ${obj[i]}`)
-        let val = (localStorage.getItem(i))
-        console.log(val);
+//     for (i in  obj) {
+//         // console.log(`${i}: ${obj[i]}`)
+//         localStorage.setItem(i,`${i}: ${obj[i]}`)
+//         let val = (localStorage.getItem(i))
+//         console.log(val);
 
-    }
-}
-savesproperty()
+//     }
+// }
+// savesproperty()
